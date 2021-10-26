@@ -10,3 +10,18 @@
     justify-content: flex-end;
     margin: 5px 100px;
 }
+
+.body-container-fluid {
+    background-color: lemonchiffon;
+}
+
+.body-container-fluid h2 h3 {
+    margin-top: 100px;
+}
+
+.mypic-img {
+    background-image: url(../images/backgroundfire.png);
+    background-size: cover;
+    display: flex;
+
+}
