@@ -1,0 +1,12 @@
+:root {
+
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+ .navbar-collapse {
+    justify-content: flex-end;
+    margin: 5px 100px;
+}
