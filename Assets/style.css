@@ -53,6 +53,32 @@
 }
 
 
+.container {
+    height: 400px;
+    padding-top: 10px;
+}
+
+h4 {
+    display: block;
+    position: relative;
+    text-align: center;
+}
+
+img {
+    height: 350px; 
+    object-fit: cover;
+  }
+
+  .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 20%;
+    border: 1px solid black;
+}
+
 @media screen and (max-width: 1170px) {
    
     .first h1 {
