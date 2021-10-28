@@ -1,4 +1,7 @@
 :root {
+    --lemon: #fffacd;
+
+
 
 }
 
@@ -11,17 +14,20 @@
     margin: 5px 100px;
 }
 
-.body-container-fluid {
-    background-color: lemonchiffon;
+.container {
+    width: 100vh;
 }
 
-.body-container-fluid h2 h3 {
-    margin-top: 100px;
+.blue-background {
+    height: 400px;
 }
 
-.mypic-img {
-    background-image: url(../images/backgroundfire.png);
+.first {
+    background-image: url(../images/coding2.jpg);
     background-size: cover;
-    display: flex;
-
 }
+
+.gray-background {
+    background-color: #eaeaea;
+}
+
