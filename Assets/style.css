@@ -1,11 +1,11 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Rubik' sans-serif;
 }
 :root {
     --white: #fff;
-
-
-
 }
 
 .navbar-brand {
@@ -16,6 +16,8 @@ body {
     justify-content: flex-end;
     margin: 5px 100px;
 }
+
+/* Index */
 
 .blue-background {
     height: 350px;
@@ -48,7 +50,7 @@ body {
 }
 
 .second p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     text-align: center;
     margin-top: 40px;
 }
@@ -86,6 +88,39 @@ img {
     color: black;
 }
 
+
+.card-banner {
+    text-align: center;
+}
+
+/* Portfolio */
+
+.project-heading {
+    background-image: url(../images/backgroundfire.png);
+    background-size: cover;
+    height: 150px;
+}
+
+.project-heading h5 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    color: var(--white);
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    padding-top: 20px;
+}
+
+.card-group.card {
+    width: 33%;
+}
+
 @media screen and (max-width: 1170px) {
    
     .first h1 {
@@ -98,11 +133,16 @@ img {
     .blue-background {
         width: 100vw;
         height: 600px;
-        font-size: 1.5rem;
+        
     }
 
     .first {
         height: 250px;
+        
+    }
+
+    .first h1 {
+        font-size: 2rem;
     }
     .second {
         height: 500px;
@@ -111,13 +151,13 @@ img {
     
 }
 
-@media screen and (min-width: 300px) {
+@media screen and (max-width: 670px) {
     .second h1 {
-      font-size: 1rem;
+      font-size: 2rem;
     }
     
    .second p {
-       font-size: 1rem;
+       font-size: 1.1rem;
        margin-top: -5px;
    }
 }
