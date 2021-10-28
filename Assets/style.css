@@ -1,5 +1,5 @@
 :root {
-    --lemon: #fffacd;
+    --white: #fff;
 
 
 
@@ -19,15 +19,46 @@
 }
 
 .blue-background {
-    height: 400px;
+    height: 350px;
 }
 
 .first {
-    background-image: url(../images/coding2.jpg);
+    background-image: url(../images/backgroundfire.png);
     background-size: cover;
 }
 
-.gray-background {
+.first h1 {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 100px;
+    line-height: 1px;
+    font-size: 3rem;
+    color: var(--white);
+}
+
+.second {
     background-color: #eaeaea;
 }
 
+.second h2 {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1180px) {
+    .container {
+        width: 100vh;
+    }
+
+    .first h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .first h1 {
+      font-size: 1.5rem;
+    }
+    
+}
