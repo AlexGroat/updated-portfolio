@@ -14,12 +14,9 @@
     margin: 5px 100px;
 }
 
-.container {
-    width: 100vh;
-}
-
 .blue-background {
     height: 350px;
+    overflow: hidden;
 }
 
 .first {
@@ -31,8 +28,8 @@
     display: flex;
     position: relative;
     justify-content: center;
-    margin-top: 100px;
-    line-height: 1px;
+    margin-top: 90px;
+    line-height: 1%;
     font-size: 3rem;
     color: var(--white);
 }
@@ -42,23 +39,51 @@
 }
 
 .second h2 {
+    font-family: 'Rubik' sans-serif;
     text-align: center;
+    margin-top: 20px;
+    
+}
+
+.second p {
+    font-family: 'Rubik' sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 40px;
 }
 
 
-@media screen and (max-width: 1180px) {
-    .container {
-        width: 100vh;
-    }
-
+@media screen and (max-width: 1170px) {
+   
     .first h1 {
-        font-size: 2rem;
+        font-size: 1rem;
+        line-height: 1px;
     }
 }
 
-@media screen and (max-width: 400px) {
-    .first h1 {
-      font-size: 1.5rem;
+@media screen and (max-width: 1000px) {
+    .blue-background {
+        width: 100vw;
+        height: 600px;
+        font-size: 1.5rem;
+    }
+
+    .first {
+        height: 250px;
+    }
+    .second {
+        height: 500px;
+    }
+
+    
+}
+
+@media screen and (min-width: 300px) {
+    .second h1 {
+      font-size: 1rem;
     }
     
+   .second p {
+       font-size: 1rem;
+   }
 }
