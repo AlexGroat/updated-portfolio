@@ -166,11 +166,19 @@ img {
     margin-top: 50px;
 }
 
+.contact-card img {
+    size: 50px;
+}
+
 .contact-info {
     width: 30%;
     display: flex;
     justify-content: center;
     background-color: gainsboro;
+}
+
+#linked-in {
+    size: 50px;
 }
 
 
