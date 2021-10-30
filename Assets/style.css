@@ -137,18 +137,20 @@ h4 {
     margin-top: 20px;
     width: 500px;
     height: 350px;
+    overflow: hidden;
 }
 
-.card a image{
+.card a img-top {
     display: inline-block;
     overflow: hidden;
-    height: 350px;
+    height: 450px;
     
 }
 
 .card-img-top:hover {
     transform: scale(1.05);
 }
+
 
 
 /* Contact */ 
@@ -184,7 +186,7 @@ h4 {
 }
 
 img {
-    height: 200px;
+    height: 250px;
 }
 
 .link-images {
