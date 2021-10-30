@@ -126,18 +126,23 @@ img {
 .card {
     margin-left: 20px;
     margin-top: 20px;
+    width: 500px
 }
 
-.card-img-top:hover {
+.card-img:hover {
     transform: scale(1.05);
     overflow: hidden;
 }
 
-@media screen and (max-width: 1170px) {
+@media screen and (max-width: 1340px) {
    
     .first h1 {
         font-size: 1rem;
         line-height: 1px;
+    }
+
+    .second p {
+        font-size: 1rem;
     }
 }
 
@@ -170,4 +175,5 @@ img {
        font-size: 1.1rem;
        margin-top: -5px;
    }
+
 }
