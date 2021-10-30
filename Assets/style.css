@@ -111,15 +111,28 @@ img {
 }
 
 .card-group {
-    display: flex;
-    flex-wrap: wrap;
     width: 100vw;
-    padding-top: 20px;
+    height: 400px;
+    margin-top: 10px;
 }
 
-.card-group.card {
-    width: 33%;
+.second-card-group {
+    width: 100vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
+
+.cards {
+    width: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
 
 @media screen and (max-width: 1170px) {
    
