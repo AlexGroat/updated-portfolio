@@ -114,6 +114,10 @@ img {
     margin-top: 20px;
 }
 
+#project-cards {
+    overflow: hidden;
+}
+
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -129,11 +133,14 @@ img {
     width: 500px
 }
 
-.card-img:hover {
-    transform: scale(1.05);
+.card a {
+    display: inline-block;
     overflow: hidden;
 }
 
+.card-img-top:hover {
+    transform: scale(1.05);
+}
 @media screen and (max-width: 1340px) {
    
     .first h1 {
