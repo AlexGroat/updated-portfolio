@@ -111,32 +111,27 @@ img {
 }
 
 .card-group {
-    width: 100vw;
-    height: 400px;
-    margin-top: 30px;
-}
-
-.second-card-group {
-    width: 100vw;
-    margin-top: 90px;
-    margin-bottom: 100px;
+    margin-top: 20px;
 }
 
 .cards {
-    width: 100px;
     display: flex;
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .card {
-    margin-left: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
-
-
+.card-img-top:hover {
+    transform: scale(1.05);
+    overflow: hidden;
+}
 
 @media screen and (max-width: 1170px) {
    
@@ -163,9 +158,7 @@ img {
     }
     .second {
         height: 500px;
-    }
-
-    
+    }   
 }
 
 @media screen and (max-width: 670px) {
