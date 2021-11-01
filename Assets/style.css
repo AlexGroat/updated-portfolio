@@ -170,6 +170,7 @@ h4 {
     padding-top: 50px;
     font-size: 2rem;
     color: var(--white);
+    text-decoration: none;
 }
 
 .contact-header {
